@@ -19,8 +19,8 @@ From Windows Server Management
     <ul>
       <li>Select Web Server (IIS)</li>
       <li>Add Features</li>
+      <li>Next</li>
     </ul>
-    <li>Next</li>
     
   </li>
   <li>
@@ -28,8 +28,8 @@ From Windows Server Management
     <ul>
       <li>Select SMTP Server</li>
       <li>Add Features</li>
+      <li>Next</li>
     </ul>
-    <li>Next</li>
   </li>
   <li>Install</li>
 </ul>
