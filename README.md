@@ -35,10 +35,11 @@ From Windows Server Management
 </ul>
 
 ## Reset IIS
-Run cmd as administrator
+Run cmd as administrator and powershell as administrator
 ```
 iisreset
 ```
+
 
 ## Configure SMTP
 Open Internet Information Services (IIS) 6.0 Manager
@@ -80,3 +81,18 @@ Save File
 Start the IISAdmin service
 Start the SMTPSVC service
 ```
+
+From (SMTP) Virtual Server #1) Properties
+
+
+
+
+
+Port 25: Standard SMTP port for server-to-server communication. Used for relaying emails between mail servers.
+
+Port 587: Submission port for email clients to submit outgoing mail to a mail server. Often used with STARTTLS for encryption. This port is commonly used for authenticated SMTP submission by mail clients.
+
+Check port 25 is listening:
+netstat -a -n | find "25"
+
+C:\inetpub\mailroot
