@@ -94,5 +94,8 @@ Port 587: Submission port for email clients to submit outgoing mail to a mail se
 
 Check port 25 is listening:
 netstat -a -n | find "25"
+telnet ip port
+<br>
+if telnet does not work, check it installed or not. To install telnet, go to manage, add rolls and feature, install tel-net  client on feature.
 
 C:\inetpub\mailroot
