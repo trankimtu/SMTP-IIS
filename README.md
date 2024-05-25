@@ -34,6 +34,11 @@ From Windows Server Management
   <li>Install</li>
 </ul>
 
+## Reset IIS
+Run cmd as administrator
+```
+iisreset
+```
 
 
   
