@@ -40,5 +40,16 @@ Run cmd as administrator
 iisreset
 ```
 
+## Configure SMTP
+Open Internet Information Services (IIS) 6.0 Manager
+From Server Manager
+<ul>
+  <li>Tools</li>
+  <li>Internet Information Services (IIS) 6.0 Manager</li>
+</ul>
+
+
+Right click on [SMTP Virtual Server #1] --> Start
+
 
   
